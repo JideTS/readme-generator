@@ -23,7 +23,7 @@ inquirer
       {
         type: 'input',
         name: 'usage',
-        message: 'Please describe how the installation should be used.',
+        message: 'Please describe how the installation should be done.',
       },
 
       {
@@ -100,9 +100,9 @@ inquirer
         
 ${licenceMarkdown}
         
-#${data.title}
+# ${data.title}
 
-##Table of content
+## Table of content
 [Installation](#Installation)
 [Usage](#Usage)
 [Contributions](#Contributions)
@@ -110,22 +110,22 @@ ${licenceMarkdown}
 [Questions](#Questions)
 [Licence](#Licence)
         
-##Installation 
+## Installation 
 ${data.installation}
         
-##Usage
+## Usage
 ${data.usage}
         
-##Contributions
+## Contributions
 ${data.contributions}
         
-##Tests
+## Tests
 ${data.tests}
         
-##Questions
+## Questions
 Please address your questions to ${data.email} or visit my GitHub profile at https://github.com/${data.gitHubUserName}
         
-##Licence
+## Licence
 ${data.licence} 
       `;
       }
