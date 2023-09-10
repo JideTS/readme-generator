@@ -96,35 +96,37 @@ inquirer
 // Create a function to generate markdown for README
 
     function generateMarkdown() {
-        return `${licenceMarkdown}
+        return `
         
-        #${data.title}
+${licenceMarkdown}
+        
+#${data.title}
 
-        ##Table of content
-        [Installation](#Installation)
-        [Usage](#Usage)
-        [Contributions](#Contributions)
-        [Tests](#Tests)
-        [Questions](#Questions)
-        [Licence](#Licence)
+##Table of content
+[Installation](#Installation)
+[Usage](#Usage)
+[Contributions](#Contributions)
+[Tests](#Tests)
+[Questions](#Questions)
+[Licence](#Licence)
         
-        ##Installation 
-        ${data.installation}
+##Installation 
+${data.installation}
         
-        ##Usage
-        ${data.usage}
+##Usage
+${data.usage}
         
-        ##Contributions
-        ${data.contributions}
+##Contributions
+${data.contributions}
         
-        ##Tests
-        ${data.tests}
+##Tests
+${data.tests}
         
-        ##Questions
-        Please address your questions to ${data.email} or visit my GitHub profile at https://github.com/${data.gitHubUserName}
+##Questions
+Please address your questions to ${data.email} or visit my GitHub profile at https://github.com/${data.gitHubUserName}
         
-        ##Licence
-        ${data.licence} 
+##Licence
+${data.licence} 
       `;
       }
 
