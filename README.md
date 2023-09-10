@@ -1,30 +1,32 @@
+
+        
 ![Static Badge](https://img.shields.io/badge/MIT_Licence-blue)
         
-        #Test title
+#Test title
 
-        ##Table of content
-        [Installation](#Installation)
-        [Usage](#Usage)
-        [Contributions](#Contributions)
-        [Tests](#Tests)
-        [Questions](#Questions)
-        [Licence](#Licence)
+##Table of content
+[Installation](#Installation)
+[Usage](#Usage)
+[Contributions](#Contributions)
+[Tests](#Tests)
+[Questions](#Questions)
+[Licence](#Licence)
         
-        ##Installation 
-        Test installation process
+##Installation 
+Test description
         
-        ##Usage
-        Test usage description
+##Usage
+Test installation
         
-        ##Contributions
-        Test how other developers can contribute
+##Contributions
+Test other developers contributions
         
-        ##Tests
-        Test on how to test
+##Tests
+Test how to test
         
-        ##Questions
-        Please address your questions to test@test.com or visit my GitHub profile at https://github.com/JideTS
+##Questions
+Please address your questions to test@test.com or visit my GitHub profile at https://github.com/JideTS
         
-        ##Licence
-        MIT 
+##Licence
+MIT 
       
