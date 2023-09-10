@@ -96,7 +96,35 @@ inquirer
 // Create a function to generate markdown for README
 
     function generateMarkdown() {
-        return `${licenceMarkdown}\n\n #${data.title}\n\n##Table of content\n[Installation](#Installation)\n[Usage](#Usage)\n[Contributions](#Contributions)\n[Tests](#Tests)\n[Questions](#Questions)\n[Licence](#Licence)\n\n##Installation\n ${data.installation}\n\n##Usage\n ${data.usage}\n\n##Contributions\n ${data.contributions}\n\n##Tests\n ${data.tests}\n\n##Questions\n Please address your questions to ${data.email} or visit my GitHub profile at https://github.com/${data.gitHubUserName} \n\n##Licence\n ${data.licence} 
+        return `${licenceMarkdown}
+        
+        #${data.title}
+
+        ##Table of content
+        [Installation](#Installation)
+        [Usage](#Usage)
+        [Contributions](#Contributions)
+        [Tests](#Tests)
+        [Questions](#Questions)
+        [Licence](#Licence)
+        
+        ##Installation 
+        ${data.installation}
+        
+        ##Usage
+        ${data.usage}
+        
+        ##Contributions
+        ${data.contributions}
+        
+        ##Tests
+        ${data.tests}
+        
+        ##Questions
+        Please address your questions to ${data.email} or visit my GitHub profile at https://github.com/${data.gitHubUserName}
+        
+        ##Licence
+        ${data.licence} 
       `;
       }
 
