@@ -23,7 +23,7 @@ inquirer
       {
         type: 'input',
         name: 'usage',
-        message: 'Please describe how the installation should be done.',
+        message: 'Please describe how the application should be used.',
       },
 
       {
@@ -103,12 +103,12 @@ ${licenceMarkdown}
 # ${data.title}
 
 ## Table of content
-[Installation](#Installation)
-[Usage](#Usage)
-[Contributions](#Contributions)
-[Tests](#Tests)
-[Questions](#Questions)
-[Licence](#Licence)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributions](#Contributions)
+* [Tests](#Tests)
+* [Questions](#Questions)
+* [Licence](#Licence)
         
 ## Installation 
 ${data.installation}
