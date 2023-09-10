@@ -1,5 +1,9 @@
+// Include packages needed for this application
+
 const inquirer = require('inquirer');
 const fs = require('fs');
+
+// Create an array of questions for user input via Inquirer
 
 inquirer
   .prompt([
@@ -59,7 +63,11 @@ inquirer
 
     let licenceMarkdown = "";
 
+// Create a function that returns a license badge based on which license is passed in
+
     function returnlicenceMarkdown() {
+
+        // Create a function that returns the license link
      
      switch (data.licence) {
         case 'MIT':
@@ -78,16 +86,22 @@ inquirer
             licenceMarkdown = "![Static Badge](https://img.shields.io/badge/No_Licence-blue)";
       }
      
+
       return licenceMarkdown;
 
     }
 
     returnlicenceMarkdown();
 
+// Create a function to generate markdown for README
+
     function generateMarkdown() {
         return `${licenceMarkdown}\n\n #${data.title}\n\n##Installation\n ${data.installation}\n\n##Usage\n ${data.usage}\n\n##Contributions\n ${data.contributions}\n\n##Tests\n ${data.tests}\n\n##Questions\n Please address your questions to ${data.email} or visit my GitHub profile at https://github.com/${data.gitHubUserName} \n\n##Licence\n ${data.licence} 
       `;
       }
+
+// Create a function to write README file
+
     fs.writeFile("README.md", generateMarkdown(), (err) =>
       err ? console.log(err) : console.log('Your README file was successfully generated.')
     );
