@@ -24,7 +24,7 @@ N/A
 
 N/A
 
-## Link to the video of the application
+## Link to the demo video of the application
 
 [View it now](https://drive.google.com/file/d/1EKpKsES_tE5ptIfYUat2dPIW7SbXHZDh/view?usp=share_link)
 
