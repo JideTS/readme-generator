@@ -15,6 +15,12 @@ inquirer
     },
 
     {
+      type: 'input',
+      name: 'description',
+      message: 'What is the description of the application?',
+    },
+
+    {
         type: 'input',
         name: 'installation',
         message: 'Please describe the installation process of the application.',
@@ -104,6 +110,7 @@ ${licenceMarkdown}
 
 ## Table of content
 * [Installation](#Installation)
+* [Description](#Description)
 * [Usage](#Usage)
 * [Contributions](#Contributions)
 * [Tests](#Tests)
@@ -112,6 +119,9 @@ ${licenceMarkdown}
         
 ## Installation 
 ${data.installation}
+
+## Description 
+${data.description}
         
 ## Usage
 ${data.usage}
@@ -132,7 +142,7 @@ ${data.licence}
 
 // Create a function to write README file
 
-    fs.writeFile("README.md", generateMarkdown(), (err) =>
+    fs.writeFile("GENERATEDREADME.md", generateMarkdown(), (err) =>
       err ? console.log(err) : console.log('Your README file was successfully generated.')
     );
   });
