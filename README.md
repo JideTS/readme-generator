@@ -26,7 +26,7 @@ N/A
 
 ## Link to the demo video of the application
 
-[View it now](https://drive.google.com/file/d/1EKpKsES_tE5ptIfYUat2dPIW7SbXHZDh/view?usp=share_link)
+[View it now](https://drive.google.com/file/d/1UaF0cP1IxUqe_Gx8OyPXV0w1Tu47yeqC/view?usp=share_link)
 
 ## Preview of the deployed application
 
