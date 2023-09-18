@@ -109,13 +109,13 @@ ${licenceMarkdown}
 # ${data.title}
 
 ## Table of content
-* [Installation](##Installation)
-* [Description](##Description)
-* [Usage](##Usage)
-* [Contributions](##Contributions)
+* [Installation](#Installation)
+* [Description](#Description)
+* [Usage](#Usage)
+* [Contributions](#Contributions)
 * [Tests](#Tests)
-* [Questions](##Questions)
-* [Licence](##Licence)
+* [Questions](#Questions)
+* [Licence](#Licence)
         
 ## Installation 
 ${data.installation}
