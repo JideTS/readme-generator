@@ -31,6 +31,6 @@ This is how to test the application lorem ipsum dolor sit amet, consectetur adip
 ## Questions
 Please address your questions to test@mail.com or visit my GitHub profile at https://github.com/GitHubUserName
         
-## Licence
+##Licence
 MIT 
       
